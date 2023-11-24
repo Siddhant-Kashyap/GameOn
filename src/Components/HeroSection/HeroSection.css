@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.hero{
+    margin-top: 50px;
+    display: flex;
+    height: 70vh;
+    
+
+   
+}
+.hero-left{
+    flex: 0.7;
+    font-family: 'Nabla' , sans-serif;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+
+}
+.hero-right{
+    flex: 0.3;
+    font-family: 'Foldit', sans-serif;
+    font-size: 60px;
+    
+}
+.start-btn{
+    text-align: center;
+	display: inline-block;
+	margin:5px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px ;
+    background-color: lightgray;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: gray;
+    -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+    box-shadow: 0 .2em gray; 
+    cursor: pointer;
+
+}
+.start-btn:active {
+	box-shadow: none;
+	position: relative;
+	top: .1em;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .hero-left {
+        font-size: 60px; /* Adjust font size for smaller screens */
+        text-align: center; /* Center text for smaller screens */
+    }
+
+    .hero-right {
+        flex: 1; /* Take full width on smaller screens */
+        margin-top: 20px; /* Add spacing between left and right on smaller screens */
+    }
+}
+
+
+/* FFF4AE */
